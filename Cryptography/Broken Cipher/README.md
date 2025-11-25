@@ -41,7 +41,7 @@ def main():
 ```
 The code takes in 3 arguments (including the Python script itself) in the form of `python <argument 0, which is the script> <argument 1, the message> <argument 2, the public key file`. It then runs the encryption with the `encrypt_command` function.
 </br></br>
-We then take a look at the function
+We then take a look at the function.
 ```python
 def encrypt_command(message, public_key_path):
     """
